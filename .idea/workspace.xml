@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be07dcb0-719e-48eb-a885-97698bd01de4" name="Default Changelist" comment="" />
+    <list default="true" id="be07dcb0-719e-48eb-a885-97698bd01de4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/constast/SysConstast.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/constast/SysConstast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/view/system/main/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liudao/sys/constast/SysConstast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/constast/SysConstast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/constast/SysConstast.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/constast/SysConstast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/system/main/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/system/main/index.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,117 +43,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#login#0;class#LoginController#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/system/main/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="66" column="90" selection-start-line="66" selection-start-column="90" selection-end-line="66" selection-end-column="90" />
-              <folding>
-                <element signature="e#5245#9394#0#HTML" expanded="true" />
-                <element signature="e#5589#5739#0#HTML" expanded="true" />
-                <element signature="e#5636#5734#0#HTML" expanded="true" />
-                <element signature="e#5842#6301#0#HTML" expanded="true" />
-                <element signature="e#6348#6573#0#HTML" expanded="true" />
-                <element signature="e#6727#6770#0#HTML" expanded="true" />
-                <element signature="e#6824#6870#0#HTML" expanded="true" />
-                <element signature="e#6995#7204#0#HTML" expanded="true" />
-                <element signature="e#7251#7526#0#HTML" expanded="true" />
-                <element signature="e#7432#7512#0#HTML" expanded="true" />
-                <element signature="e#9429#9454#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/DeskManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/file.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/system/main/deskManager.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="56" column="98" selection-start-line="56" selection-start-column="98" selection-end-line="56" selection-end-column="98" />
-              <folding>
-                <element signature="e#1416#1475#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-service.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.sxt</find>
+      <find>sxt</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>liudao</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -163,7 +73,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/bus/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/bus/vo/UserVo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/bus/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/constast/SysConstast.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/bus/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/bus/service/UserService.java" />
@@ -178,8 +87,20 @@
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/web/resources/js/cache.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/DeskManager.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/system/main/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/system/main/deskManager.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/domain/Menu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/vo/MenuVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/DataGridView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/MenuService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/MenuMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/impl/MenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/constast/SysConstast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/ResultObj.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/InitMenuData.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/sys/MenuMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/SysController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/system/main/index.jsp" />
       </list>
     </option>
   </component>
@@ -210,6 +131,9 @@
     <option name="y" value="105" />
     <option name="width" value="1935" />
     <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -278,7 +202,29 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="liudao" type="462c0819:PsiDirectoryNode" />
               <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="constast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrental" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrental" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="liudao" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrental" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrental" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="liudao" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="carrental" type="b2602c69:ProjectViewProjectNode" />
@@ -335,6 +281,17 @@
               <item name="liudao" type="462c0819:PsiDirectoryNode" />
               <item name="sys" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrental" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrental" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="liudao" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="carrental" type="b2602c69:ProjectViewProjectNode" />
@@ -417,7 +374,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/view/system/main" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -441,9 +398,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\BootProject\carrental\web\WEB-INF\view\system\main" />
       <recent name="E:\BootProject\carrental\src\main\java\com\liudao\sys\controller" />
-      <recent name="E:\BootProject\carrental\web\resources\images" />
-      <recent name="E:\BootProject\carrental\web\WEB-INF\lib" />
-      <recent name="E:\BootProject\carrental\web\resources" />
+      <recent name="E:\BootProject\carrental\src\main\resources\mapper\sys" />
+      <recent name="E:\BootProject\carrental\src\main\java\com\liudao\sys\mapper" />
+      <recent name="E:\BootProject\carrental\src\main\java\com\liudao\sys\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -617,27 +574,34 @@
       <workItem from="1586672969913" duration="606000" />
       <workItem from="1586673831447" duration="5964000" />
       <workItem from="1586680095050" duration="18000" />
-      <workItem from="1586680234374" duration="14493000" />
+      <workItem from="1586680234374" duration="20034000" />
     </task>
+    <task id="LOCAL-00001" summary="用MD5对密码进行了加密+锁屏功能+后台首页的开发">
+      <created>1586743064410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586743064410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21081000" />
+    <option name="totallyTimeSpent" value="26622000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24932976" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.041152265" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.041152265" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.041152265" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -694,37 +658,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="用MD5对密码进行了加密+锁屏功能+后台首页的开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="用MD5对密码进行了加密+锁屏功能+后台首页的开发" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liduao/sys/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/application-service.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/application-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-757" />
@@ -791,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/constast/SysConstast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/listener/AppListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -814,19 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/AppFileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#AppFileUtils#0" expanded="true" />
-            <element signature="method#downloadFile#0;class#AppFileUtils#0" expanded="true" />
-            <element signature="method#deleteFileUsePath#0;class#AppFileUtils#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,13 +796,6 @@
     <entry file="file://$PROJECT_DIR$/web/resources/css/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/system/main/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -934,26 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/system/main/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="66" column="90" selection-start-line="66" selection-start-column="90" selection-end-line="66" selection-end-column="90" />
-          <folding>
-            <element signature="e#5245#9394#0#HTML" expanded="true" />
-            <element signature="e#5589#5739#0#HTML" expanded="true" />
-            <element signature="e#5636#5734#0#HTML" expanded="true" />
-            <element signature="e#5842#6301#0#HTML" expanded="true" />
-            <element signature="e#6348#6573#0#HTML" expanded="true" />
-            <element signature="e#6727#6770#0#HTML" expanded="true" />
-            <element signature="e#6824#6870#0#HTML" expanded="true" />
-            <element signature="e#6995#7204#0#HTML" expanded="true" />
-            <element signature="e#7251#7526#0#HTML" expanded="true" />
-            <element signature="e#7432#7512#0#HTML" expanded="true" />
-            <element signature="e#9429#9454#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/DeskManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -991,7 +882,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="381">
           <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
         </state>
       </provider>
@@ -1013,12 +904,192 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/AppFileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/DataGridView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="method#DataGridView#0;class#DataGridView#0" expanded="true" />
+            <element signature="method#DataGridView#1;class#DataGridView#0" expanded="true" />
+            <element signature="method#DataGridView#2;class#DataGridView#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/ResultObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1016">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/domain/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-768">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/InitMenuData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sys/MenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="137" column="27" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/vo/MenuVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/service/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/service/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="method#queryAllMenu#0;class#MenuServiceImpl#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1123">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#loadMenuManagerLeftTreeJson#0;class#MenuController#0" expanded="true" />
+            <element signature="method#addMenu#0;class#MenuController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/SysController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/system/main/deskManager.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
+        <state relative-caret-position="313">
           <caret line="56" column="98" selection-start-line="56" selection-start-column="98" selection-end-line="56" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/TreeNodeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="e#1416#1475#0#HTML" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/constast/SysConstast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/system/main/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/system/main/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="237" column="7" selection-start-line="237" selection-start-column="7" selection-end-line="237" selection-end-column="7" />
+          <folding>
+            <element signature="e#5140#8765#0#HTML" expanded="true" />
+            <element signature="e#5485#5596#0#HTML" expanded="true" />
+            <element signature="e#5532#5591#0#HTML" expanded="true" />
+            <element signature="e#5699#6158#0#HTML" expanded="true" />
+            <element signature="e#6205#6430#0#HTML" expanded="true" />
+            <element signature="e#6581#6624#0#HTML" expanded="true" />
+            <element signature="e#6675#6721#0#HTML" expanded="true" />
+            <element signature="e#6846#7055#0#HTML" expanded="true" />
+            <element signature="e#7102#7332#0#HTML" expanded="true" />
+            <element signature="e#7265#7321#0#HTML" expanded="true" />
+            <element signature="e#8800#8825#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
