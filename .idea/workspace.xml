@@ -7,8 +7,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be07dcb0-719e-48eb-a885-97698bd01de4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/system/main/deskManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/system/main/deskManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/system/main/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/system/main/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/controller/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/domain/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/service/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/vo/RoleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/mapper/sys/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/view/system/role/roleManager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/view/system/user/userManager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/vo/RoleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/controller/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/domain/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/service/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/vo/RoleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/mapper/sys/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/system/role/roleManager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/system/user/userManager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/constast/SysConstast.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/constast/SysConstast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/controller/SysController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/controller/SysController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/mapper/MenuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/mapper/MenuMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/utils/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/utils/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/vo/UserVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/com/liudao/sys/vo/UserVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/mapper/sys/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/mapper/sys/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/mapper/sys/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/carrental_war_exploded/WEB-INF/classes/mapper/sys/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liudao/sys/constast/SysConstast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/constast/SysConstast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/SysController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/SysController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/MenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liudao/sys/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liudao/sys/vo/UserVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/constast/SysConstast.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/constast/SysConstast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/controller/SysController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/controller/SysController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/mapper/MenuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/mapper/MenuMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/utils/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/utils/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/vo/UserVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/liudao/sys/vo/UserVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/mapper/sys/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/mapper/sys/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/mapper/sys/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/mapper/sys/UserMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,68 +96,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/system/menu/menuLeft.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-215" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrental.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/system/main/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/system/menu/menuManager.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/system/menu/menuRight.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="178" column="43" lean-forward="true" selection-start-line="178" selection-start-column="43" selection-end-line="178" selection-end-column="43" />
-              <folding>
-                <element signature="e#7416#7564#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -134,13 +130,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/bus/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/impl/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/vo/UserVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/sys/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/web/resources/js/cache.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/DeskManager.java" />
@@ -149,15 +140,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/vo/MenuVo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/DataGridView.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/MenuService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/MenuMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/impl/MenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/MenuController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/constast/SysConstast.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/ResultObj.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/InitMenuData.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/sys/MenuMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/SysController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/system/main/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/domain/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/sys/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/vo/RoleVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/constast/SysConstast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/MenuMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/sys/MenuMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/sys/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/vo/UserVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/SysController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -426,6 +431,24 @@
             </path>
             <path>
               <item name="carrental" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrental" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="role" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrental" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrental" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrental" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -440,9 +463,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/view/system/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/view/system" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -462,11 +486,11 @@
       <recent name="com.liudao.sys.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\BootProject\carrental\web\WEB-INF\view\system\main" />
       <recent name="E:\BootProject\carrental\web\WEB-INF\view\system" />
       <recent name="E:\BootProject\carrental\src\main\java\com\liudao\sys\controller" />
       <recent name="E:\BootProject\carrental\src\main\resources\mapper\sys" />
       <recent name="E:\BootProject\carrental\src\main\java\com\liudao\sys\mapper" />
+      <recent name="E:\BootProject\carrental\src\main\java\com\liudao\sys\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -640,7 +664,7 @@
       <workItem from="1586672969913" duration="606000" />
       <workItem from="1586673831447" duration="5964000" />
       <workItem from="1586680095050" duration="18000" />
-      <workItem from="1586680234374" duration="23447000" />
+      <workItem from="1586680234374" duration="27431000" />
     </task>
     <task id="LOCAL-00001" summary="用MD5对密码进行了加密+锁屏功能+后台首页的开发">
       <created>1586743064410</created>
@@ -656,17 +680,23 @@
       <option name="project" value="LOCAL" />
       <updated>1586748805420</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成了菜单管理">
+      <created>1586772978441</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586772978441</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30035000" />
+    <option name="totallyTimeSpent" value="34019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19772118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -735,133 +765,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="用MD5对密码进行了加密+锁屏功能+后台首页的开发" />
     <MESSAGE value="初始化菜单栏数据+加载左边菜单栏" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化菜单栏数据+加载左边菜单栏" />
+    <MESSAGE value="完成了菜单管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了菜单管理" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/bus/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/bus/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/bus/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/vo/UserVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/listener/AppListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#contextDestroyed#0;class#AppListener#0" expanded="true" />
-            <element signature="method#contextInitialized#0;class#AppListener#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/RandomUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="method#createFileNameUseTime#0;class#RandomUtils#0" expanded="true" />
-            <element signature="method#createFileNameUseUUID#0;class#RandomUtils#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/WebUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sys/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/css/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/layui/layui.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/images/face.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/resources/images/alipay.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -978,13 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/ResultObj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1016">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/domain/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-768">
@@ -999,13 +899,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sys/MenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="137" column="27" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1043,16 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1123">
@@ -1062,13 +945,6 @@
             <element signature="method#loadMenuManagerLeftTreeJson#0;class#MenuController#0" expanded="true" />
             <element signature="method#addMenu#0;class#MenuController#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/SysController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1083,23 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/constast/SysConstast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/MenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1170,6 +1029,246 @@
             <element signature="e#7416#7564#0#HTML" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/vo/RoleVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-624">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="method#addRole#0;class#RoleController#0" expanded="true" />
+            <element signature="method#updateRole#0;class#RoleController#0" expanded="true" />
+            <element signature="method#deleteRole#0;class#RoleController#0" expanded="true" />
+            <element signature="method#deleteBatchRole#0;class#RoleController#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/ResultObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sys/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2461">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/constast/SysConstast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/utils/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1439">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="112" column="52" lean-forward="true" selection-start-line="112" selection-start-column="52" selection-end-line="112" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initRoleMenuTreeJson#0;class#RoleServiceImpl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/system/role/roleManager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3661">
+          <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4834#9680#0#HTML" expanded="true" />
+            <element signature="e#5580#5685#0#HTML" expanded="true" />
+            <element signature="e#5833#5962#0#HTML" expanded="true" />
+            <element signature="e#6030#6193#0#HTML" expanded="true" />
+            <element signature="e#6254#6851#0#HTML" expanded="true" />
+            <element signature="e#6468#6685#0#HTML" expanded="true" />
+            <element signature="e#6578#6673#0#HTML" expanded="true" />
+            <element signature="e#6925#7194#0#HTML" expanded="true" />
+            <element signature="e#7079#7181#0#HTML" expanded="true" />
+            <element signature="e#7239#7489#0#HTML" expanded="true" />
+            <element signature="e#7393#7476#0#HTML" expanded="true" />
+            <element signature="e#7541#7752#0#HTML" expanded="true" />
+            <element signature="e#7634#7746#0#HTML" expanded="true" />
+            <element signature="e#7794#8357#0#HTML" expanded="true" />
+            <element signature="e#7958#8086#0#HTML" expanded="true" />
+            <element signature="e#8141#8349#0#HTML" expanded="true" />
+            <element signature="e#8242#8337#0#HTML" expanded="true" />
+            <element signature="e#8414#9676#0#HTML" expanded="true" />
+            <element signature="e#8750#9095#0#HTML" expanded="true" />
+            <element signature="e#8918#8963#0#HTML" expanded="true" />
+            <element signature="e#9051#9087#0#HTML" expanded="true" />
+            <element signature="e#9125#9663#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sys/MenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="68" lean-forward="true" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sys/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/vo/UserVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#login#0;class#UserServiceImpl#0" expanded="true" />
+            <element signature="method#queryAllUser#0;class#UserServiceImpl#0" expanded="true" />
+            <element signature="method#addUser#0;class#UserServiceImpl#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="method#deleteUser#0;class#UserServiceImpl#0" expanded="true" />
+            <element signature="method#deleteBatchUser#0;class#UserServiceImpl#0" expanded="true" />
+            <element signature="method#resetUserPwd#0;class#UserServiceImpl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/SysController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liudao/sys/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-950">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/system/user/userManager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1152" />
       </provider>
     </entry>
   </component>

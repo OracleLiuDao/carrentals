@@ -3,6 +3,8 @@ package com.liudao.sys.mapper;
 
 import com.liudao.sys.domain.User;
 
+import java.util.List;
+
 public interface UserMapper {
     int deleteByPrimaryKey(Integer userid);
 
@@ -20,4 +22,8 @@ public interface UserMapper {
      * 登陆
      */
     User login(User user);
+    /**
+     * 查询用户
+     */
+    List<User> queryAllUser(User user);
 }

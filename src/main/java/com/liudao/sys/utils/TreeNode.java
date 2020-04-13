@@ -18,6 +18,9 @@ public class TreeNode {
 	private String target;
 	private List<TreeNode> children = new ArrayList<>();
 
+	// 复选树的必要属性
+	private String checkArr="0";//选中就是1
+
 	/**
 	 * 首页左边导航树的构造器
 	 * 
@@ -38,6 +41,24 @@ public class TreeNode {
 		this.href = href;
 		this.spread = spread;
 		this.target = target;
+	}
+
+	/**
+	 * dtree的复选树使用
+	 * 
+	 * @param id
+	 * @param pid
+	 * @param title
+	 * @param spread
+	 * @param checkArr
+	 */
+	public TreeNode(Integer id, Integer pid, String title, Boolean spread, String checkArr) {
+		super();
+		this.id = id;
+		this.pid = pid;
+		this.title = title;
+		this.spread = spread;
+		this.checkArr = checkArr;
 	}
 
 	public Integer getId() {
@@ -104,6 +125,11 @@ public class TreeNode {
 		this.children = children;
 	}
 
+	public String getCheckArr() {
+		return checkArr;
+	}
 
+	public void setCheckArr(String checkArr) {
+		this.checkArr = checkArr;
+	}
 }
-
