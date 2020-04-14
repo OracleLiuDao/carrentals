@@ -52,5 +52,22 @@ public class SysController {
 		return "system/user/userManager";
 	}
 
-
+/*   //跳转日志管理界面
+	public String toLogInfoManager(){
+		return "system/logInfo/logInfoManager";
+	}*/
+	/**
+	 * 跳转日志管理页面
+	 */
+	@RequestMapping("toLogInfoManager")
+	public String toLogInfoManager() {
+		return "system/logInfo/logInfoManager";
+	}
+	/**
+	 * 跳转公告管理页面
+	 */
+	@RequestMapping("toNewsManager")
+	public String toNewsManager() {
+		return "system/news/newsManager";
+	}
 }

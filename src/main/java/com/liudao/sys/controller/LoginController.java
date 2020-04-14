@@ -3,13 +3,17 @@ package com.liudao.sys.controller;
 
 import com.liudao.sys.constast.SysConstast;
 import com.liudao.sys.domain.User;
+import com.liudao.sys.service.LogInfoService;
 import com.liudao.sys.service.UserService;
 import com.liudao.sys.utils.WebUtils;
+import com.liudao.sys.vo.LogInfoVo;
 import com.liudao.sys.vo.UserVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.util.Date;
 
 /**
  * 用户登陆控制器
@@ -22,6 +26,9 @@ public class LoginController {
 
 	@Autowired
 	private UserService userService;
+	
+	@Autowired
+	private LogInfoService logInfoService;
 	
 	
 	/**
@@ -43,6 +50,12 @@ public class LoginController {
 			//放到session
 			WebUtils.getHttpSession().setAttribute("user", user);
 			//记录登陆日志 向sys_login_log里面插入数据
+			LogInfoVo logInfoVo=new LogInfoVo();
+			logInfoVo.setLogintime(new Date());
+			logInfoVo.setLoginname(user.getRealname()+"-"+user.getLoginname());
+			logInfoVo.setLoginip(WebUtils.getHttpServletRequest().getRemoteAddr());
+			
+			logInfoService.addLogInfo(logInfoVo);
 			return "system/main/index";
 		}else {
 			model.addAttribute("error", SysConstast.USER_LOGIN_ERROR_MSG);
